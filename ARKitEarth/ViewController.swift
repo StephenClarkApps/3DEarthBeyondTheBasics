@@ -139,7 +139,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     
     
     func addNodeAtLocation (location:CGPoint) {
-        guard anchors.count > 0 else {print("anchros are not created yet"); return}
+        guard anchors.count > 0 else {print("anchors are not created yet"); return}
         
         let hitResults = sceneView.hitTest(location, types: .existingPlaneUsingExtent)
         
