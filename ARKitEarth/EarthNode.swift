@@ -17,7 +17,6 @@ class EarthNode: SCNNode {
         self.geometry?.firstMaterial?.emission.contents = UIImage(named:"Emission")
         self.geometry?.firstMaterial?.normal.contents = UIImage(named:"Normal")
         self.geometry?.firstMaterial?.isDoubleSided = true
-
         self.geometry?.firstMaterial?.transparency = 1
         self.geometry?.firstMaterial?.shininess = 50
         
@@ -32,6 +31,4 @@ class EarthNode: SCNNode {
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
-    
-    
 }

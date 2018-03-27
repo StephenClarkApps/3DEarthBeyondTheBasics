@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		52876BE31FD5B5E90095D994 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52876BE21FD5B5E90095D994 /* AppDelegate.swift */; };
-		52876BE51FD5B5E90095D994 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 52876BE41FD5B5E90095D994 /* art.scnassets */; };
 		52876BE71FD5B5E90095D994 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52876BE61FD5B5E90095D994 /* ViewController.swift */; };
 		52876BEA1FD5B5E90095D994 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52876BE81FD5B5E90095D994 /* Main.storyboard */; };
 		52876BEC1FD5B5E90095D994 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52876BEB1FD5B5E90095D994 /* Assets.xcassets */; };
@@ -19,7 +18,6 @@
 /* Begin PBXFileReference section */
 		52876BDF1FD5B5E90095D994 /* ARKitEarth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKitEarth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52876BE21FD5B5E90095D994 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		52876BE41FD5B5E90095D994 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		52876BE61FD5B5E90095D994 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		52876BE91FD5B5E90095D994 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52876BEB1FD5B5E90095D994 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -59,7 +57,6 @@
 			isa = PBXGroup;
 			children = (
 				52876BE21FD5B5E90095D994 /* AppDelegate.swift */,
-				52876BE41FD5B5E90095D994 /* art.scnassets */,
 				52876BE61FD5B5E90095D994 /* ViewController.swift */,
 				52876BF61FD5B6100095D994 /* EarthNode.swift */,
 				52876BE81FD5B5E90095D994 /* Main.storyboard */,
@@ -129,7 +126,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52876BE51FD5B5E90095D994 /* art.scnassets in Resources */,
 				52876BEF1FD5B5E90095D994 /* LaunchScreen.storyboard in Resources */,
 				52876BEC1FD5B5E90095D994 /* Assets.xcassets in Resources */,
 				52876BEA1FD5B5E90095D994 /* Main.storyboard in Resources */,
